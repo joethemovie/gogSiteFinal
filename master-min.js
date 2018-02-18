@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#loader").delay(2e3).fadeOut(1e3);var e=new Rellax(".rellaxC",{center:!0}),l=new Rellax(".rellaxBw",{center:!0}),a=new Rellax(".gogText",{center:!0}),n=new Rellax(".gogLogo",{center:!0})});

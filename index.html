@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ghosts of Gowanus</title>
+    <link rel="stylesheet" href="master.css">
+    <script src="jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="jquery.nav.js" charset="utf-8"></script>
+    <script src="rellax.min.js" charset="utf-8"></script>
+    <script src="master.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="loader">
+    
+    </div>
+    <div id="colorContainer">
+      <div class="gogLogo">
+        <img src="logo.png" alt="Ghosts of Gowanus">
+        <ul id="nav">
+          <li><a class="" href="#about">about</a></li>
+          <li><a class="" href="#history">history</a></li>
+          <li><a class="" href="#contact">contact</a></li>
+        </ul>
+      </div>
+      <!-- <img src="CLR-Bridge.png" alt="" class="rellaxC"  data-rellax-speed="10" data-rellax-percentage=".5"> -->
+      <div  id="about" style="">
+
+      </div>
+      <br>
+      <br>
+      <p class="gogText">
+        Ghosts of Gowanus is a web‐based documentary series focusing on the folklore  and nearly forgotten cultural history of the Gowanus Canal and its surrounding neighborhoods. Each installment will be 3-­5 minutes and feature a story told by a longtime resident of the area. Because every story has its own unique language and style, we will use a variety of techniques to visually portray or reimagine their memories - ­animation, reenactment, stop‐motion, and photographic collage.
+        <br>
+        <br>
+
+The Gowanus Canal and surrounding neighborhood is a place with a layered and  multifaceted past. It was the site of the largest battle of the American Revolution, for 35 years was the busiest commercial canal in the country, and its bordering neighborhoods hosted thriving immigrant communities in addition to infamous organized crime networks.  Yet as the latest hotspot of development and “revitalization,” the area faces a potentially devastating whitewashing of its history.
+<br>
+<br>
+Our goal is historic preservation through storytelling; to relate these stories in a  way that encourages the public to value them the way their tellers do, despite how unlikely a protagonist a notoriously polluted canal might seem. If the public falls in love with this history the way the locals have, it might advocate for a more considerate and less destructive development process.
+      </p>
+    </div>
+    <!-- <div id="bwContainer">
+      <div class="rellaxBw" data-rellax-speed="2" data-rellax-percentage="0.5">
+
+      </div>
+      <p  class="gogText"  data-rellax-speed="2" data-rellax-percentage="0.5">
+        Ghosts of Gowanus is a web-­‐based documentary series focusing on the folklore  and nearly forgotten cultural history of the Gowanus Canal and its surrounding neighborhoods.  Each installment will be 3-­‐5 minutes and feature a story told by a longtime resident of the area.  Because every story has its own unique language and style, we will use a variety of techniques to visually portray or reimagine their memories -­‐ animation, reenactment, stop-­‐motion, and photographic collage.
+        <br>
+        <br>
+
+The Gowanus Canal and surrounding neighborhood is a place with a layered and  multifaceted past. It was the site of the largest battle of the American Revolution, for 35 years was the busiest commercial canal in the country, and its bordering neighborhoods hosted thriving immigrant communities in addition to infamous organized crime networks.  Yet as the latest hotspot of development and“revitalization,” the area faces a potentially devastating whitewashing of its history.
+<br>
+<br>
+Our goal is historic preservation through storytelling; to relate these stories in a  way that encourages the public to value them the way their tellers do, despite how unlikely a protagonist a notoriously polluted canal might seem. If the public falls in love with this history the way the locals have, it might advocate for a more considerate and less destructive development process.
+      </p>
+    </div> -->
+<script type="text/javascript">
+$('#nav').onePageNav({
+currentClass: 'current',
+changeHash: false,
+scrollSpeed: 750,
+scrollThreshold: 0.5,
+filter: '',
+easing: 'swing',
+begin: function() {
+  //I get fired when the animation is starting
+},
+end: function() {
+  //I get fired when the animation is ending
+},
+scrollChange: function($currentListItem) {
+  //I get fired when you enter a section and I pass the list item of the section
+}
+});
+</script>
+  </body>
+</html>
