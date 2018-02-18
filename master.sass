@@ -5,26 +5,35 @@ html,body
   font-family: Helvetica, sans-serif
 #colorContainer
   background-image: url(bgColor2.png)
-  -webkit-background-size: cover
-  -moz-background-size: cover
-  -o-background-size: cover
-  background-size: cover
+  background-repeat: no-repeat
+  -webkit-background-size: 100% auto
+  -moz-background-size: 100% auto
+  -o-background-size: 100% auto
+  background-size: 100% auto
+  background-position: center top
   z-index: 1
-  height: 3500px
   width: 100%
   padding: 0
   margin: 0
   border: 0
   position: absolute
+.rellaxC
+  background-image: url(bridgeColor.png)
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  margin-top: 42%
+  width: 100%
 .gogText
   width: 80%
-  margin: 60% auto 0 auto
+  margin: 40px auto 0 auto
+  padding: 0 0 200px 0
   text-align: center
   font-size: 18px
   letter-spacing: .2px
   line-height: 2
   color: #F1F1E2
-  z-index: 9999
 .gogLogo
   position: fixed
   z-index: 1
@@ -68,28 +77,73 @@ html,body
   img
     width: 700px
     margin: 20% auto 0 auto
-@media screen and (max-width: 1500px)
-  #colorContainer
-    height: 2500px
-@media screen and (max-width: 1000px)
-  #colorContainer
-    height: 2000px
+.story
+  text-align: center
+  top: 16%
+  position: absolute
+  margin-left: auto
+  margin-right: auto
+  left: 0
+  right: 0
+  font-family: serif
+  color: #F1F1E2
+  line-height: .5
+  h1
+    font-size: 15px
+    font-weight: 500
+  p
+    font-size: 12px
+    letter-spacing: .5px
+    font-weight: 250
+@media screen and (max-width: 950px)
+  .story
+    top: 11%
+  .gogText
+    width: 80%
+    margin: 90px auto 0 auto
 @media screen and (max-width: 750px)
   #colorContainer
-    height: 2500px
+    background-image: url(bgColor2.png)
+    background-repeat: no-repeat
+    -webkit-background-size: 100% auto
+    -moz-background-size: 100% auto
+    -o-background-size: 100% auto
+    background-size: 100% auto
+    background-position: 0 45px
+  .gogText
+    width: 80%
+    margin: 0px auto 0 auto
   .gogLogo
     position: fixed
     z-index: 1
     padding: 0px
     margin: 0px
     border: 0
-    width: 100vw
+    width: 100%
     text-align: center
     background-color: rgba(246, 246, 235, 1)
-    height: 80px
+    height: 12%
+  .rellaxC
+    background-image: url(bridgeColor.png)
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+    margin-top: 80%
+    width: 100%
+  .gogLogo
+    position: fixed
+    z-index: 1
+    padding: 0px
+    margin: 0px
+    border: 0
+    width: 100%
+    text-align: center
+    background-color: rgba(246, 246, 235, 1)
+    height: 90px
     img
       padding: 10px 0 0 0
-      width: 90%
+      width: 560px
       margin: 0 auto
       display: block
     ul
@@ -109,15 +163,87 @@ html,body
           letter-spacing: 1px
           color: #000
           text-decoration: none
-@media screen and (max-width: 740px)
+@media screen and (max-width: 590px)
+  .story
+    top: 15%
   #colorContainer
-    height: 2500px
+    background-image: url(bgColor2.png)
+    background-repeat: no-repeat
+    -webkit-background-size: 100% auto
+    -moz-background-size: 100% auto
+    -o-background-size: 100% auto
+    background-size: 100% auto
+    background-position: 0 45px
+    z-index: 1
+    width: 100%
+    padding: 0
+    margin: 0
+    border: 0
+    position: absolute
   .gogLogo
     position: fixed
     z-index: 1
     padding: 0px
-    margin: -0px 0 0 0
-    background-color: rgba(246, 246, 235, 1)
+    margin: 0px
+    img
+      width: 450px
+  .gogText
+    width: 80%
+    margin: -200px auto 0 auto
+    text-align: center
+    font-size: 15px
+    letter-spacing: .2px
+    line-height: 2
+    color: #F1F1E2
+    padding: 0 0 100px 0
+@media screen and (max-width: 520px)
+  .story
+    top: 15%
   #colorContainer
-    background-position: 0px 50px
-    padding-top: 0px
+    background-image: url(bgColor2.png)
+    background-repeat: no-repeat
+    -webkit-background-size: 100% auto
+    -moz-background-size: 100% auto
+    -o-background-size: 100% auto
+    background-size: 100% auto
+    background-position: 0 45px
+    z-index: 1
+    width: 100%
+    padding: 0
+    margin: 0
+    border: 0
+    position: absolute
+  .gogLogo
+    position: fixed
+    z-index: 1
+    padding: 0px
+    margin: 0px
+    height: 70px
+    img
+      width: 350px
+  .gogText
+    width: 80%
+    margin: 0px auto 0 auto
+    text-align: center
+    font-size: 15px
+    letter-spacing: .2px
+    line-height: 2
+    color: #F1F1E2
+    padding: 0 0 100px 0
+@media screen and (max-width: 500px)
+  .story
+    top: 10%
+@media screen and (max-width: 480px)
+  .story
+    top: 12%
+@media screen and (max-width: 370px)
+  .story
+    top: 6.5%
+  .gogLogo
+    position: fixed
+    z-index: 1
+    padding: 0px
+    margin: 0px
+    height: 60px
+    img
+      width: 260px
